@@ -45,7 +45,7 @@ const CartButton = ({name,price}) => {
   }
   return (
     <>
-    {!cartItem && (<button className="cart-button icon-styles" onClick={()=>{AddHandler()}}><img src="./src/assets/images/icon-add-to-cart.svg" alt="cart-icon"/> Add To Cart</button>) }
+    {!cartItem && (<button className="cart-button icon-styles" onClick={()=>{AddHandler()}}><img src="./assets/images/icon-add-to-cart.svg" alt="cart-icon"/> Add To Cart</button>) }
     {/* If product already exists in cart then increment and decrement quantity */}
     {/* {cartItem && (<button className="cart-button" onClick={()=>{AddHandler()}}>-  +</button>) }   */}
     {cartItem && (<div className="cart-button add-remove-styles" style={{padding:0}}>

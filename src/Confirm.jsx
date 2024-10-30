@@ -30,7 +30,7 @@ const Confirm = () => {
     <>
     <div className={visible? "overlay show":"overlay hide"}>
         <div className="confirm-check">
-            <img id="checkMark" src="./src/assets/images/icon-order-confirmed.svg" alt="green check mark"/>
+            <img id="checkMark" src="./assets/images/icon-order-confirmed.svg" alt="green check mark"/>
             <h1>Order Confirmed</h1>
             <p>We hope you enjoyed your food</p>
             {showList}

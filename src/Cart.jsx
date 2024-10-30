@@ -34,7 +34,7 @@ const Cart = () => {
       <div className="cart">
         <h1 className="price">Your Cart ({amount})</h1>
           {cartData.length===0 && <div style={{textAlign:"center"}}>
-                                    <img src="./src/assets/images/illustration-empty-cart.svg" alt="Empty cart image"/>
+                                    <img src="./assets/images/illustration-empty-cart.svg" alt="Empty cart image"/>
                                     <p>Your added items will appear here</p>
                                   </div>}
           {cartData.length !==0 && <>
@@ -43,7 +43,7 @@ const Cart = () => {
                                     <p>Order Total</p> <span>${totalPrice.toFixed(2)}</span>
                                   </div>
                                     <div className="carbon">
-                                      <img src="./src/assets/images/icon-carbon-neutral.svg" alt="carbon neutral image"/>
+                                      <img src="./assets/images/icon-carbon-neutral.svg" alt="carbon neutral image"/>
                                       <p>
                                       This is a <strong>carbon-neutral</strong> delivery
                                       </p>
